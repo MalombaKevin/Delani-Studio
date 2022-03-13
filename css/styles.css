@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
 }
 .icons{
-    height:150px;
+    height:180px;
 }
 .portfolio{
     height:290px;
@@ -31,6 +31,7 @@ input{
     border:0.2px white solid;
     height:15px;
     padding-bottom: 6px;
+    color: white;
 
 }
 ::placeholder{
@@ -48,4 +49,18 @@ form{
 }
 .social{
     height:100px;
+}
+
+
+
+/* JAVASCRIPT */
+
+.textDesign{
+    display: none;
+}
+.textDev{
+    display: none;
+}
+.textProdman{
+    display: none;
 }
