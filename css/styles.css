@@ -1,0 +1,51 @@
+.intro{
+    height:500px;
+     background-image: url('/Assets/backgrounds/h_img.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+
+/* }
+.delani{
+    height:250px;
+    background-image: url('/Assets/backgrounds/s_image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icons{
+    height:150px;
+}
+.portfolio{
+    height:290px;
+}
+.contact{
+    height:270px;
+    background-image: url('/Assets/backgrounds/c_image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+input{
+    background-color:rgba(0, 0, 0, 0);
+    border:0.2px white solid;
+    height:15px;
+    padding-bottom: 6px;
+
+}
+::placeholder{
+    color:white;
+    font-size: 50%;
+}
+textarea{
+    background-color:rgba(0, 0, 0, 0);
+    border:0.3px white solid;
+}
+
+form{
+    position: relative;
+    top:20%;
+}
+.social{
+    height:100px;
+} */
