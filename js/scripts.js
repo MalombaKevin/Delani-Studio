@@ -16,7 +16,7 @@ $(Document).ready(function () {
 	// hover to pop up project name
 	
 		$('.snake').snakeify({
-			speed: 130
+			speed: 200
 		});
 	
 

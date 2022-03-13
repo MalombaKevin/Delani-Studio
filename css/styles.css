@@ -1,19 +1,19 @@
 
-/* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 .intro{
     height:500px;
-     background-image: url('/Assets/backgrounds/h_img.jpg');
+     background-image: url('/Assets/backgrounds/hmg.jpg');
      background-size: contain;
      background-repeat: no-repeat;
 
 }
 .delani{
     height:250px;
-    background-image: url('/Assets/backgrounds/s_image.jpg');
+    background-image: url('/Assets/backgrounds/simage.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@
 }
 .contact{
     height:350px;
-    background-image: url('/Assets/backgrounds/c_image.jpg');
+    background-image: url('/Assets/backgrounds/cimage.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
