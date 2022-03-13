@@ -1,8 +1,9 @@
 # DelaniStudio
 
 ##### By Kevin Malomba
+### Full Stack Developer
 ### Delani Studio is the leading company in Eastern And Central Africa when it comes to providing software development services.This is a website built to tell the World who Delani Studio is.
-### Front-end developer
+
 
 ## Table of Content
 
