@@ -1,3 +1,9 @@
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
 .intro{
     height:500px;
      background-image: url('/Assets/backgrounds/h_img.jpg');
@@ -15,7 +21,7 @@
     height:150px;
 }
 .portfolio{
-    height:290px;
+    height:289px;
 }
 .contact{
     height:350px;
@@ -30,12 +36,6 @@
     background-color:rgba(0, 0, 0, 0);
     border:0.2px white solid;
     height:1rem;
-
-    
-
-    
-    
-
 }
 ::placeholder{
     color:white;
@@ -63,11 +63,13 @@ form{
 .social{
     height:100px;
 }
-
+ 
 
 
 
 /* JAVASCRIPT */
+
+/* click effect */
 
 .textDesign{
     display: none;
@@ -77,6 +79,19 @@ form{
 }
 .textProdman{
     display: none;
+}
+
+/* hover text overlay */
+
+.overlay{
+    position:absolute;
+    padding:30px 30px 0px 30px;
+    width:inherit;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    
+   
+    
 }
 
 
