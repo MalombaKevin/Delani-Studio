@@ -33,11 +33,11 @@ input{
     padding-bottom: 6px;
 
 }
-/* ::placeholder{
+::placeholder{
     color:white;
     font-size: 50%;
 }
-textarea{
+/* textarea{
     background-color:rgba(0, 0, 0, 0);
     border:0.3px white solid;
 }
