@@ -12,13 +12,13 @@
     background-repeat: no-repeat;
 }
 .icons{
-    height:180px;
+    height:150px;
 }
 .portfolio{
     height:290px;
 }
 .contact{
-    height:270px;
+    height:350px;
     background-image: url('/Assets/backgrounds/c_image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -26,12 +26,15 @@
 
 
 }
-input{
+#email, #name{
     background-color:rgba(0, 0, 0, 0);
     border:0.2px white solid;
-    height:15px;
-    padding-bottom: 6px;
-    color: white;
+    height:1rem;
+
+    
+
+    
+    
 
 }
 ::placeholder{
@@ -47,9 +50,20 @@ form{
     position: relative;
     top:20%;
 }
+.submitButton{
+    background-color: blueviolet;
+    color:white;
+    border:1px blueviolet solid;
+}
+.resetButton{
+    background-color: red;
+    color:white;
+    border:1px red solid;
+}
 .social{
     height:100px;
 }
+
 
 
 
@@ -64,3 +78,7 @@ form{
 .textProdman{
     display: none;
 }
+
+
+
+/* media */
