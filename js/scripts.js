@@ -1,14 +1,14 @@
 $(Document).ready(function () {
 	// click to toggle
-	$('.imageDesign').click(function () {
+	$('.imageDesign').hover(function () {
 		$('.imageDesign').toggle();
 		$('.textDesign').toggle();
 	});
-	$('.imageDev').click(function () {
+	$('.imageDev').hover(function () {
 		$('.textDev').toggle();
 		$('.imageDev').toggle();
 	});
-	$('.imageProdman').click(function () {
+	$('.imageProdman').hover(function () {
 		$('.textProdman').toggle();
 		$('.imageProdman').toggle();
 	});

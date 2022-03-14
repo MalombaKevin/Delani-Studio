@@ -68,6 +68,7 @@
 .textProdman {
 	cursor: progress;
 	font-size: 100%;
+	display:none;
 }
 .textDesign:hover {
 	color: blueviolet;
@@ -279,8 +280,8 @@ form {
 }
 
 /* media query */
-@media screen and (max-width: 480px) {
-	body {
-		background-color: yellow;
+/* @media screen and (max-width: 480px) { */
+	/* body { */
+	/* background-color: yellow; */
 	}
 }
