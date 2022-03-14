@@ -1,100 +1,115 @@
-.intro{
-    height:500px;
-     background-image:url('../Assets/backgrounds/hmg.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-
+.intro {
+	height: 500px;
+	background-image: url('../Assets/backgrounds/hmg.jpg');
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
 }
-.welcome{
-    text-align: center;
-    position: relative;
-    top:32%;
-    color:white;
+.welcome {
+	text-align: center;
+	position: relative;
+	top: 32%;
+	color: white;
 }
-.imageWelcome{
-    height:5vw;
+.welcome p{
+    font-size:50%;
 }
-
-
-
-.delani{
-    height:250px;
-    background-image:url('../Assets/backgrounds/simage.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.icons{
-    height:150px;
-}
-.portfolio{
-    height:289px;
-}
-.contact{
-    height:350px;
-    background-image:url('../Assets/backgrounds/cimage.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
-
-
-}
-#email, #name{
-    background-color:rgba(0, 0, 0, 0);
-    border:0.2px white solid;
-    height:15px;
-}
-::placeholder{
-    color:white;
-    font-size: 50%;
-}
-textarea{
-    background-color:rgba(0, 0, 0, 0);
-    border:0.3px white solid;
+.imageWelcome {
+	height: 5vw;
 }
 
-form{
-    position: relative;
-    top:20%;
+.delani {
+	height: 250px;
+	background-image: url('../Assets/backgrounds/simage.jpg');
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
 }
-.submitButton{
-    background-color: blueviolet;
-    color:white;
-    border:1px blueviolet solid;
+.icons {
+	height: 150px;
 }
-.resetButton{
-    background-color: red;
-    color:white;
-    border:1px red solid;
+.textDesign,
+.textDev,
+.textProdman {
+	cursor: progress;
 }
-.social{
-    height:100px;
+.textDesign:hover {
+	color: blueviolet;
 }
- 
+.portfolio {
+	height: 289px;
+}
+.portfolioImage {
+	height: 95px;
+}
+.contact {
+	height: 350px;
+	background-image: url('../Assets/backgrounds/cimage.jpg');
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#email,
+#name {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0.2px white solid;
+	height: 15px;
+}
+::placeholder {
+	color: white;
+	font-size: 50%;
+}
+textarea {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0.3px white solid;
+}
 
-
+form {
+	position: relative;
+	top: 20%;
+}
+.submitButton {
+	background-color: blueviolet;
+	color: white;
+	border: 1px blueviolet solid;
+}
+.resetButton {
+	background-color: red;
+	color: white;
+	border: 1px red solid;
+}
+.social {
+	height: 100px;
+}
 
 /* JAVASCRIPT */
 
 /* click effect */
 
-.textDesign{
-    display: none;
+.textDesign {
+	display: none;
 }
-.textDev{
-    display: none;
+.textDev {
+	display: none;
 }
-.textProdman{
-    display: none;
+.textProdman {
+	display: none;
 }
 
 /* hover text overlay */
 
-.overlay{
-    position:absolute;
-    padding:30px 30px 0px 30px;
-    height:95px;
-    text-align: center;
-    background-color:rgba(255, 255, 255, 0.5);
+.overlay {
+	position: absolute;
+	height: inherit;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* media query */
+@media screen and (max-width: 480px) {
+	body{
+        background-color: yellow;
+    }
+    
+}
