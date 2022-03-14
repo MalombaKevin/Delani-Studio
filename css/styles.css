@@ -5,6 +5,18 @@
      background-repeat: no-repeat;
 
 }
+.welcome{
+    text-align: center;
+    position: relative;
+    top:32%;
+    color:white;
+}
+.imageWelcome{
+    height:5vw;
+}
+
+
+
 .delani{
     height:250px;
     background-image:url('../Assets/backgrounds/simage.jpg');
@@ -80,7 +92,7 @@ form{
 .overlay{
     position:absolute;
     padding:30px 30px 0px 30px;
-    width:inherit;
+    height:95px;
     text-align: center;
     background-color:rgba(255, 255, 255, 0.5);
     
@@ -90,4 +102,4 @@ form{
 
 
 
-/* media */
+media query
