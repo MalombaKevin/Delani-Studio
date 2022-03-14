@@ -104,7 +104,7 @@
 	width: 200px;
 }
 .portfolio5 {
-	background-image: url('/Assets/portfolio/work5.jpg');
+	background-image: url('../Assets/portfolio/work5.jpg');
 	background-size: contain;
 	height: 200px;
 	width: 200px;
