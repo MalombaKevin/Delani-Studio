@@ -1,8 +1,8 @@
 $(Document).ready(function () {
 	// click to toggle
 	$('.imageDesign').click(function () {
-		$('.textDesign').toggle();
 		$('.imageDesign').toggle();
+		$('.textDesign').toggle();
 	});
 	$('.imageDev').click(function () {
 		$('.textDev').toggle();
@@ -16,7 +16,7 @@ $(Document).ready(function () {
 	// hover to pop up project name
 	
 		$('.snake').snakeify({
-			speed: 180
+			
 		});
 	
 

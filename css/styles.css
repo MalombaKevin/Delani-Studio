@@ -1,86 +1,140 @@
 .intro {
-	height: 500px;
+	height: 950px;
 	background-image: url('../Assets/backgrounds/hmg.jpg');
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .welcome {
 	text-align: center;
 	position: relative;
-	top: 32%;
+	top: 33%;
 	color: white;
 }
-.welcome p{
-    font-size:50%;
+.welcome p {
+	font-size: 120%;
+}
+.welcome h1 {
+	font-size: 350%;
 }
 .imageWelcome {
 	height: 5vw;
 }
+.image2Welcome {
+	height: 50px;
+}
+.about {
+	text-align: center;
+}
 
 .delani {
-	height: 250px;
+	height: 600px;
 	background-image: url('../Assets/backgrounds/simage.jpg');
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 	background-repeat: no-repeat;
 }
+.delani h1 {
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	position: relative;
+	top: 30%;
+}
+.delani p {
+	text-align: center;
+	font-size: 130%;
+	color: white;
+	position: relative;
+	top: 31%;
+}
 .icons {
-	height: 150px;
+	height: 300px;
+    text-align:center;
+}
+.container-fluid{
+    text-align: center;
+
+}
+.iconsIntro{
+    font-size:200%;
+}
+.imageDesign, .imageDev, .imageProdman{
+    height:100px;
 }
 .textDesign,
 .textDev,
 .textProdman {
 	cursor: progress;
+    font-size:100%;
 }
 .textDesign:hover {
 	color: blueviolet;
 }
 .portfolio {
-	height: 289px;
+	height: 600px;
 }
 .portfolioImage {
-	height: 95px;
+	height:200px;
+    width:200px;
 }
 .contact {
-	height: 350px;
+	height: 600px;
 	background-image: url('../Assets/backgrounds/cimage.jpg');
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
+
 }
+.formData{
+    position: relative;
+    top:30%;
+}
+
+
 #email,
 #name {
 	background-color: rgba(0, 0, 0, 0);
 	border: 0.2px white solid;
-	height: 15px;
+    color:white;
 }
+
 ::placeholder {
 	color: white;
-	font-size: 50%;
+	
 }
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+    }
 textarea {
 	background-color: rgba(0, 0, 0, 0);
 	border: 0.3px white solid;
+    color:white;
 }
 
 form {
 	position: relative;
-	top: 20%;
+
 }
 .submitButton {
 	background-color: blueviolet;
 	color: white;
 	border: 1px blueviolet solid;
+    width:100px;
+    font-size: 150%;
 }
 .resetButton {
 	background-color: red;
 	color: white;
 	border: 1px red solid;
+    width:100px;
+    font-size: 150%;
 }
 .social {
-	height: 100px;
+	height: 50px;
+    text-align: center;
 }
 
 /* JAVASCRIPT */
@@ -108,8 +162,7 @@ form {
 
 /* media query */
 @media screen and (max-width: 480px) {
-	body{
-        background-color: yellow;
-    }
-    
+	body {
+		background-color: yellow;
+	}
 }
