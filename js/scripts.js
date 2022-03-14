@@ -13,11 +13,35 @@ $(Document).ready(function () {
 		$('.imageProdman').toggle();
 	});
 
-	// hover to pop up project name
 	
-		$('.snake').snakeify({
-			
-		});
+	
+	
+	// hover to pop up project name
+	$('.portfolio1').hover(function(){
+		$('.overlay1').toggle();
+	});
+	$('.portfolio2').hover(function(){
+		$('.overlay2').toggle();
+	});
+	$('.portfolio3').hover(function(){
+		$('.overlay3').toggle();
+	});
+	$('.portfolio4').hover(function(){
+		$('.overlay4').toggle();
+	});
+	$('.portfolio5').hover(function(){
+		$('.overlay5').toggle();
+	});
+	$('.portfolio6').hover(function(){
+		$('.overlay6').toggle();
+	});
+	$('.portfolio7').hover(function(){
+		$('.overlay7').toggle();
+	});
+	$('.portfolio8').hover(function(){
+		$('.overlay8').toggle();
+	});
+
 	
 
 	// form data and alert message to user sending message
