@@ -1,14 +1,14 @@
 $(Document).ready(function () {
 	// click to toggle
-	$('.imageDesign').hover(function () {
+	$('.design').click(function () {
 		$('.imageDesign').toggle();
 		$('.textDesign').toggle();
 	});
-	$('.imageDev').hover(function () {
+	$('.dev').click(function () {
 		$('.textDev').toggle();
 		$('.imageDev').toggle();
 	});
-	$('.imageProdman').hover(function () {
+	$('.prodman').click(function () {
 		$('.textProdman').toggle();
 		$('.imageProdman').toggle();
 	});
@@ -46,16 +46,16 @@ $(Document).ready(function () {
 
 	// form data and alert message to user sending message
 
-	// $('.contact form').submit(function (event) {
-	// 	var contactName = $('#name').val();
-	// 	var contactEmail = $('#email').val();
-	// 	var contactMessage = $('#message').val();
-	// 	alert(
-	// 		'Hi ' +
-	// 			contactName +
-	// 			'. Thank you for contacting Delani Studio. We will get back to you as soon as possible.'
-	// 	);
+	$('.contact form').submit(function (event) {
+		var contactName = $('#name').val();
+		var contactEmail = $('#email').val();
+		var contactMessage = $('#message').val();
+		alert(
+			'Hi ' +
+				contactName +
+				'. Thank you for contacting Delani Studio. We will get back to you as soon as possible.'
+		);
 
-		// event.preventDefault();
-	// });
+		event.preventDefault();
+	});
 });
